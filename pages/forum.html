@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Jeux-videos/forum</title>
+      <link rel="stylesheet" href="../style.css">
+      <link rel="stylesheet" href="../css/forump.css">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Hubballi&display=swap" rel="stylesheet">
+      <script src="https://kit.fontawesome.com/628311496d.js" crossorigin="anonymous"></script>
+
+  </head>
+  <body>
+
+      <div class="contenu">
+        <nav id='menu'>
+          <div class="logo">
+            <a href="../index.html"><img src="../img/logoJV192.png" alt="logo"></a>
+          </div>
+      
+          <div>
+          <input type='checkbox' id='responsive-menu' onclick='updatemenu()'>
+          <label for="responsive-menu"></label>
+          <ul>
+            <li><a class='dropdown-sign' href='../index.html'>Acceuil</a>
+            <ul class='sub-menus'>
+              <li><a href='../index.html'>Sorties</a></li>
+              <li><a href='../index.html'>Les Plus attendus</a></li>
+              <li><a href='../index.html'>Classement</a></li>
+              <li><a href='../index.html'>Video</a></li>
+            </ul>
+            </li>
+            <li><a class='dropdown-sign' href='actus.html'>Actus</a>
+            <ul class='sub-menus'>
+              <li><a href='actus.html'>Culture geek</a></li>
+              <li><a href='actus.html'>Astuces</a></li>
+              <li><a href='actus.html'>Retrogaming</a></li>
+              <li><a href='actus.html'>Toutes les actus</a></li>
+            </ul>
+            </li>
+            <li><a class='dropdown-sign' href='high-tech.html'>HIgh-Tech</a>
+            <ul class='sub-menus'>
+              <li><a href='high-tech.html'>Bons Plans</a></li>
+              <li><a href='high-tech.html'>Guides d'achat</a></li>
+              <li><a href='high-tech.html'>Test Produits</a></li>
+            </ul>
+            </li>
+            <li><a class='dropdown-sign' href='forum.html'>FAQ</a>
+            <ul class='sub-menus'>
+              <li><a href='forum1.html'>Horizon II</a></li>
+              <li><a href='forum2.html'>Cyberpunk 2077</a></li>
+              <li><a href='forum3.html'>Grant tourismo 7</a></li>
+            </ul>
+            </li>
+            <li><a href='contact.html'>Contact Us</a></li>
+          </ul>
+          </div>
+        
+        </nav>
+
+          <main>
+                <div class="hiden-content"></div>
+                <div class="main-title">
+                    <div class="title-img">
+						<img src="../img/logoJV192.png" alt="">
+					</div>
+                    <div class="title-text">
+                        <p>
+                            <a href="../index.html">jeuxvideo.com</a> / Les Forums de jeuxvideo.com : retrouvez notre communauté et venez échanger avec elle sur divers sujets et de nombreux topics
+                        </p>
+                    </div>
+                </div>
+                <div class="main-content">
+
+                    <div class="left-col">
+
+                        <div class="recherche">
+                            <input type="text" id="serch" placeholder="RECHERCHER UN FORUM">
+                            <label for="serch"><i class="fa-solid fa-magnifying-glass"></i></label>
+                        </div>
+                        <div class="left-col-titles">
+                            <a href="../index.html">jeuxvideo.com</a>
+                        </div>
+                        <div class="col-g-row">
+                           <div class="box">
+                                <a href="forum1.html">
+                                    <img src="../img/horizon-zero-dawn-retail-1.jpg" alt="">
+                                    <p>Horizon</p>
+                                </a>
+                           </div>
+                           <div class="box box1 comm">
+                               <h4><span>➨</span> COMMUNAUTE</h4>
+                               <ul>
+                                   <li><a href="../index.html">jeuxvideo.com</a></li>
+                                   <li><a href="high-tech.html">Boutique jeuxvideo.com</a></li>
+                                   <li><a href="#">Sondages</a></li>
+                               </ul>
+                           </div>
+                        </div>
+                        <div class="col-g-row">
+                            <div class="box box1 help">
+                                <h4><a href=""><span>➨</span>AIDE AUX UTILISATEURS</a></h4>
+                            </div>
+                            <div class="box box1 contri">
+                                <h4><a href=""><span>➨</span>CONTRIBUTIONS UTILISATEURS</a></h4>
+                            </div>
+                         </div>
+                         
+                         <div class="left-col-titles">
+                            <a href="../index.html">Le jeu Vidéo</a>
+                        </div>
+                        <div class="col-g-row">
+                            <div class="box box1 Glejv">
+                                <h4><span>➨</span> GENERAL JEU VIDEO</h4>
+                                <ul>
+                                    <li><a href="#">FPS & TPS</a></li>
+                                    <li><a href="#">RPG</a></li>
+                                    <li><a href="#">STR</a></li>
+                                    <li><a href="#">Jeux de combat</a></li>
+                                    <li><a href="#">Jeux de course</a></li>
+                                    <li><a href="#">Jeux d'aventure</a></li>
+                                    <li><a href="#">Jeux de Sports</a></li>
+                                    <li><a href="#">Simulation</a></li>
+                                </ul>
+                            </div>
+                            <div class="box box1 salon">
+                                <h4><span>➨</span> SALON & EVENEMENTS</h4>
+                                <ul>
+                                    <li><a href="#">E3</a></li>
+                                    <li><a href="#">Gamescom</a></li>
+                                    <li><a href="#">Tokyo Game Show</a></li>
+                                    <li><a href="#">Paris Games Week</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-g-row">
+                            <div class="box box1 oldies">
+                                <h4><span>➨</span> OLDIES & RETROGAMING</h4>
+                                <ul>
+                                    <li><a href="#">Playstation 3</a></li>
+                                    <li><a href="#">Playstation Vita</a></li>
+                                    <li><a href="#">Nitendo DS</a></li>
+                                    <li><a href="#">Playstation 2</a></li>
+                                    <li><a href="#">Xbox</a></li>
+                                    <li><a href="#">Gamecube</a></li>
+                                    <li><a href="#">Gameboy Advance</a></li>
+                                    <li><a href="#">Playstation 1</a></li>
+                                    <li><a href="#">Dreamcast</a></li>
+                                    <li><a href="#">Playstation Portable</a></li>
+                                    <li><a href="#">Nintendo 64</a></li>
+                                    <li><a href="#">Megadrive</a></li>
+                                    <li><a href="#">Saturn</a></li>
+                                    <li><a href="#">Gameboy</a></li>
+                                </ul>
+                            </div>
+                            
+                            <div class="box-special">
+                                <div class="box box1 inde">
+                                    <h4><a href=""><span>➨</span>JEUX INDEPENDENT</a></h4>
+                                </div>
+                                <div class="box box1 FTP">
+                                    <h4><a href=""><span>➨</span>FREE TO PLAY</a></h4>
+                                </div>
+                                <div class="box box1 online">
+                                    <h4><a href=""><span>➨</span>JEUX EN LIGNE</a></h4>
+                                    <ul>
+                                        <li><a href="#">E-Sport</a></li>
+                                    </ul>
+                                </div>
+                                <div class="box box1 handi">
+                                    <h4><a href=""><span>➨</span>JEU VIEOS & HANDICAP</a></h4>
+                                </div>
+                                <div class="box box1 annonces">
+                                    <h4><a href=""><span>➨</span>PETITES ANNONCES</a></h4>
+                                    <ul>
+                                        <li><a href="#">Collectionneurs</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="box box1 war">
+                                <h4><a href="#"><span>➨</span>GUERRE DES CONSOLES</a></h4>
+                            </div>
+                        </div>
+
+                        
+
+                        <div class="left-col-titles">
+                            <a href="#">Machine</a>
+                        </div>
+                        
+                        <div class="col-g-row">
+                            <div class="box-special">
+                                <div class="box box1 pc">
+                                    <h4><a href="#"><span>➨</span> JEUX PC</a></h4>
+                                    <ul>
+                                        <li><a href="#">Plateforme de Telechargement Pc</a></li>
+                                        <li><a href="#">Realite Virtuelle</a></li>
+                                    </ul>
+                                </div>
+                                <div class="box box1 ps">
+                                    <h4><a href="#"><span>➨</span> Playstation 5</a></h4><br>
+                                    <h4><a href="#"><span>➨</span> Playstation4</a></h4>
+                                    <ul>
+                                        <li><a href="#">Playstation VR</a></li>
+                                    </ul>
+                                    <h4><a href="#"><span>➨</span> Playstation Store</a></h4>
+                                </div>
+                                <div class="box box1 phones">
+                                    <h4><a href="#"><span>➨</span> SMARTPHONES & TABLETTES</a></h4>
+                                    <ul>
+                                        <li><a href="#">iPhone/iPod/iPad/Watch</a></li>
+                                        <li><a href="#">Android</a></li>
+                                        <li><a href="#">Windows Phone</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="box-special">
+                                <div class="box box1 xbox">
+                                    <h4><a href="#"><span>➨</span> XBOX SERIE X</a></h4><br>
+                                    <h4><a href="#"><span>➨</span> XBOX ONE</a></h4><br>
+                                    <h4><a href="#"><span>➨</span> XBOX 360</a></h4>
+                                    <ul>
+                                        <li><a href="#">Xbox live Arcade</a></li>
+                                        <li><a href="#">Xbox Originals</a></li>
+                                    </ul>
+                                </div>
+                                <div class="box box1 nitendo">
+                                    <h4><a href="#"><span>➨</span> NINTENDO SWITCH</a></h4><br>
+                                    <h4><a href="#"><span>➨</span> WII U</a></h4><br>
+                                    <h4><a href="#"><span>➨</span> WII</a></h4>
+                                    <ul>
+                                        <li><a href="#">Wii Ware & Console virtuelle</a></li>
+                                    </ul>
+                                    <h4><a href="#"><span>➨</span> 3DS</a></h4>
+                                </div>
+                                <div class="box box1 stadia">
+                                    <h4><a href="#"><span>➨</span> GOOGLE STADIA</a></h4>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="left-col-titles">
+                            <a href="#">Passions High-Tech</a>
+                        </div>
+
+                        <div class="col-g-row">
+                            <div class="box box1 inform">
+                                <h4><a href="#"><span>➨</span> INFORMATIQUE</a></h4>
+                                <ul>
+                                    <li><a href="#">Hardware</a></li>
+                                    <li><a href="#">Mac</a></li>
+                                    <li><a href="#">Linux</a></li>
+                                    <li><a href="#">Steam Os</a></li>
+                                    <li><a href="#">TV-HIFI-Home Cinema</a></li>
+                                    <li><a href="#">Jeux</a></li>
+                                    <li><a href="#">Creation de jeux</a></li>
+                                    <li><a href="#">Creation de sites Web</a></li>
+                                    <li><a href="#">Programation</a></li>
+                                    <li><a href="#">Internet</a></li>
+                                    <li><a href="#">Modelisation 3D</a></li>
+                                    <li><a href="#">Montage</a></li>
+                                </ul>
+                            </div>
+                            <div class="box box1 art">
+                                <h4><a href="#"><span>➨</span> ART</a></h4>
+                                <ul>
+                                    <li><a href="#">Cinema</a></li>
+                                    <li><a href="#">Television & serie</a></li>
+                                    <li><a href="#">Animation</a></li>
+                                    <li><a href="#">Musique</a></li>
+                                    <li><a href="#">Livre</a></li>
+                                    <li><a href="#">BD-Mangas-Comics</a></li>
+                                    <li><a href="#">Photographie</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="left-col-titles">
+                            <a href="#">Autres Passions</a>
+                        </div>
+
+                        <div class="col-g-row">
+                            <div class="box-special">
+                                <div class="box box1 sport">
+                                    <h4><a href="#"><span>➨</span> SPORT</a></h4>
+                                    <ul>
+                                        <li><a href="#">Football</a></li>
+                                        <li><a href="#">Tennis</a></li>
+                                        <li><a href="#">Basket</a></li>
+                                        <li><a href="#">Boxe</a></li>
+                                        <li><a href="#">Cyclisme</a></li>
+                                        <li><a href="#">Tennis de Table</a></li>
+                                    </ul>
+                                </div>
+                                <div class="box box1 savoir">
+                                    <h4><a href="#"><span>➨</span> SAVOIR & CULTURE</a></h4>
+                                    <ul>
+                                        <li><a href="#">cours & devoirs</a></li>
+                                        <li><a href="#">Metiers & Orientation</a></li>
+                                        <li><a href="#">Histoire</a></li>
+                                        <li><a href="#">Philosophie</a></li>
+                                    </ul>
+                                </div>
+                                <div class="box box1 salon">
+                                    <h4><a href="#"><span>➨</span> FINANCE</a></h4>
+                                </div>
+                                <div class="box box1 actu">
+                                    <h4><a href="#"><span>➨</span> ACTUALITE</a></h4>
+                                </div>
+                            </div>
+                            <div class="box-special">
+                                <div class="box box1 science">
+                                    <h4><a href="#"><span>➨</span> SCIENCES & TECHNO</a></h4>
+                                    <ul>
+                                        <li><a href="#">Astronomie</a></li>
+                                    </ul>
+                                </div>
+                                <div class="box box1 loisir">
+                                    <h4><a href="#"><span>➨</span> LOISIRS</a></h4>
+                                    <ul>
+                                        <li><a href="#">Automobiles</a></li>
+                                        <li><a href="#">Cuisine & Patisserie</a></li>
+                                        <li><a href="#">Nature & animaux</a></li>
+                                        <li><a href="#">Humour</a></li>
+                                        <li><a href="#">Voyages</a></li>
+                                        <li><a href="#">Aviation</a></li>
+                                    </ul>
+                                </div>
+                                <div class="box box1 crea">
+                                    <h4><a href="#"><span>➨</span> CREATION</a></h4>
+                                    <ul>
+                                        <li><a href="#">Arts Graphiques</a></li>
+                                        <li><a href="#">Ecriture</a></li>
+                                        <li><a href="#">Modelisme</a></li>
+                                    </ul>
+                                </div>
+                                <div class="box box1 sante">
+                                    <h4><a href="#"><span>➨</span> SANTE & BIEN-ETRE</a></h4>
+                                    <ul>
+                                        <li><a href="#">Sexualite</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="right-col">
+                        <div class="col-r-card">
+                            <div class="col-r-card-title">
+                                <h4>Top Forums</h4>
+                            </div>
+                            <div class="col-r-card-body">
+                            <ol>
+                                <li><a href="forum1.html">Horizon: Forbidden West</a></li>
+                                <li><a href="forum2.html">Cyberpunk 2077</a></li>
+                                <li><a href="forum3.html">Grant Tourimo 7</a></li>
+                                <li><a href="">Grant Theft Auto V</a></li>
+                                <li><a href="">Elden Ring</a></li>
+                                <li><a href="">Genshin Impact</a></li>
+                                <li><a href="">Football Manager</a></li>
+                                <li><a href="">League of Legend</a></li>
+                                <li><a href="">Hogwarts Legacy</a></li>
+                                <li><a href="">Pokemon Ecarlate/Violet</a></li>
+                                <li><a href="">WWE 2K22</a></li>
+                                <li><a href="">Lost Ark</a></li>
+                                <li><a href="">Star Citizen - Squadron 42</a></li>
+                                <li><a href="">Stranger Of Paradise: Final Fantasy Origin</a></li>
+                                <li><a href="">Dragon Ball Z Dokkan Battle</a></li>
+                            </ol>
+                            </div>
+                        </div>
+                        <div class="col-r-card2">
+                            <div class="card-header">
+                                <i class="fa-solid fa-fire-flame-curved"></i>
+                                <h4>Les jeux attendus</h4>
+                            </div>
+                            <div class="card-body">
+                                <div class="num n1"><p>1</p></div>
+                                <div class="jeu">
+                                    <h4><a href="../index.html">Hogwarts Legacy: l'héritage de Poudlard</a></h4>
+                                    <p>4ème trimestre 2022</p>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <div class="num n2"><p>2</p></div>
+                                <div class="jeu">
+                                    <h4><a href="../index.html">Pokémon Ecarlate/Violet</a></h4>
+                                    <p>4ème trimestre 2022</p>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <div class="num n3"><p>3</p></div>
+                                <div class="jeu">
+                                    <h4><a href="../index.html">Ghostwire Tokyo</a></h4>
+                                    <p>25 mars 2022</p>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <div class="num n4"><p>4</p></div>
+                                <div class="jeu">
+                                    <h4><a href="../index.html">Xenoblade Chronicles 3</a></h4>
+                                    <p>Sept. 2022</p>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <div class="num n5"><p>5</p></div>
+                                <div class="jeu">
+                                    <h4><a href="../index.html">Tiny Tina's Wonderlands</a></h4>
+                                    <p>25 mars 2022</p>
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <p>Tous les jeux attendus</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                  
+                </div>
+
+                <section id="vid-du-moment">
+					<div class="last-part">
+						<div class="parts-title">
+							<h3>La Video du moment</h3>
+						</div>
+
+						<div class="Vid">
+                            <div class="video" style="width: 100%;background:#444444;"><iframe frameborder="0" src="https://www.jeuxvideo.com/videos/iframe/2977030" style="width: 100%;height:330px;border:0;margin:0;overflow:hidden;" allowfullscreen="true"></iframe><p style="margin:0;padding:0 5px 5px 5px;font-size:11px;font-family: Tahoma, Arial, sans-serif;"><a href="" target="_blank" style="color:#333333;text-decoration:none;"><strong>Apex Legends Mobile - Official Pre-Registration Trailer</strong></a> - <a href="https://www.jeuxvideo.com/" target="_blank" style="color:#333333;text-decoration:none;">jeuxvideo.com</a></p></div>					</div>
+				</section>
+
+
+          </main>
+
+      </div>
+
+      <footer>
+    
+            <div class="footer-content">
+              <div class="social">
+                <div class="reseaux">
+                    <h3>Nous Suivre</h3>
+                    <ul class="footer-reseaux">
+                        <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-discord"></i></a></li>
+                    </ul>
+                </div>
+                <div class="app">
+                    <h3>Telecharger L'application</h3>
+                    <ul class="footer-app">
+                        <li><a href="#"><i class="fa-brands fa-google-play"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-apple"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-windows"></i></a></li>
+                    </ul>
+                </div>
+              </div>
+            
+
+              <div class="info">
+
+                <div class="footer-contact">
+                    <ul class="footer-info">
+                        <li><a href="contact.html">Contact</a> |</li>
+                        <li><a href="contact.html">Information légale</a> |</li>
+                        <li><a href="contact.html">Politique de Confidentialité</a> |</li>
+                        <li><a href="contact.html">Newsletter</a></li>
+                    </ul>
+                </div>
+        
+                <div class="copyright">
+                  <p><a href="../index.html">JV.com</a> Porjet d'examen Html/css édité par Edem Claude K | &copy; copyright 2022</p>
+                </div>
+              </div>
+
+            </div>
+      </footer>
+    
+    </body>
+</html>

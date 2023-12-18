@@ -1,0 +1,332 @@
+
+        .main-title .title-img{
+            width: 90%;
+            text-align: center;
+            height: 250px;
+            border: 1px solid #808080;
+            border-radius: 5px;
+            margin:   0px auto 10px ;
+        }
+        .main-title .title-img img{
+            margin-top: 10px;
+            filter: grayscale(100);
+        }
+
+        .main-title .title-text{
+            width: 90%;
+            margin: 10px auto 30px;
+            font-size: 16px;
+            font-style: italic;
+        }
+        
+
+
+        /* Main Content */
+
+.main-content{
+    width: 80% ;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+            /* Colonne de gauche */
+
+.main-content .left-col{width: 65%;}
+
+.left-col .recherche{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    border: #808080 1px solid;
+    border-radius: 5px;
+}
+.left-col .recherche input{
+    width: 90%;
+    background-color: inherit;
+    font-weight: 400;
+    height: 20px;
+    border: none;
+    border-radius: 4px;
+    padding-left: 20px;
+}
+.left-col .recherche i{
+    font-size: 14px;
+    color: #808080;
+    padding-right: 10px;
+}
+.left-col .recherche label{
+    cursor: pointer;
+}
+.left-col-titles a{
+    font-family: 'Fredoka One', cursive, sans-serif;
+    font-weight: 100;
+}
+.left-col-titles{
+    margin: 20px 0;
+}
+.col-g-row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    margin-bottom: 30px;
+}
+.box img{
+    width: 100%;
+    border-radius: 5px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.col-g-row .box{
+    position: relative;
+    background-color: #333;
+    width: 48%;
+    border-radius: 5px;
+}
+.col-g-row .box p{
+    position: absolute;
+    top: 10px;
+    margin-left: 10px;
+    background-color: #0099ff;
+    border-radius: 5px;
+    padding: 5px;
+}
+.col-g-row .box h4{
+    display: inline;
+    background-color: #333;
+    padding: 10px 10px 5px;
+    border-top-right-radius: 5px;
+}
+.col-g-row .box li{
+    list-style-type: square;
+
+}
+.col-g-row .box ul{
+    margin-left: 50px;
+    padding-bottom: 10px;
+}
+.col-g-row .box span{
+    color: red;
+}
+.col-g-row .box1{
+    height: content;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-top: 35px;
+}
+.col-g-row .box-special > div{
+    width: 320px;
+    margin-bottom: 20px;
+}
+.col-g-row .comm{
+    background-image: url(../img/communaute.jpg);
+}
+.col-g-row .help{
+    background-image: url(../img/help.jpg);
+}
+.col-g-row .contri{
+    background-image: url(../img/contri.png);
+}
+.col-g-row .Glejv{
+    background-image: url(../img/Glejv.jpg);
+}
+.col-g-row .salon{
+    background-image: url(../img/salon.jpg);
+}
+.col-g-row .oldies{
+    background-image: url(../img/oldies.jpg);
+}
+.col-g-row .inde{
+    background-image: url(../img/Inde.jpg);
+}
+.col-g-row .FTP{
+    background-image: url(../img/FTP.jpg);
+}
+.col-g-row .online{
+    background-image: url(../img/online.jpg);
+}
+.col-g-row .handi{
+    background-image: url(../img/handi.jpg);
+}
+.col-g-row .annonces{
+    background-image: url(../img/annonce.jpg);
+}
+.col-g-row .war{
+    background-image: url(../img/War.jpg);
+}
+.col-g-row .inform{
+    background-image: url(../img/inform.jpg);
+}
+.col-g-row .pc{
+    background-image: url(../img/Pc.jpg);
+}
+.col-g-row .ps{
+    background-image: url(../img/ps.jpg);
+}
+.col-g-row .xbox{
+    background-image: url(../img/xbox.jpg);
+}
+.col-g-row .nitendo{
+    background-image: url(../img/nitendo.jpg);
+}
+.col-g-row .stadia{
+    background-image: url(../img/stadia.jpg);
+}
+.col-g-row .phones{
+    background-image: url(../img/phone.jpg);
+}
+.col-g-row .art{
+    background-image: url(../img/art.jpg);
+}
+.col-g-row .sport{
+    background-image: url(../img/sport.jpg);
+}
+.col-g-row .science{
+    background-image: url(../img/science.jpg);
+}
+.col-g-row .loisir{
+    background-image: url(../img/loisirs.jpg);
+}
+.col-g-row .savoir{
+    background-image: url(../img/culture.jpg);
+}
+.col-g-row .crea{
+    background-image: url(../img/crea.jpg);
+}
+.col-g-row .actu{
+    background-image: url(../img/actu.jpg);
+}
+.col-g-row .sante{
+    background-image: url(../img/sante.png);
+}
+
+
+        /* colonne de droite */
+.main-content .right-col{
+    width: 30%;
+}
+.col-r-card{
+    height: max-content;
+    background-color: #333;
+    border: 1px solid #808080;
+    border-radius: 5px;
+}
+.col-r-card h4{
+    font-family: 'Fredoka One';
+    font-weight: 100;
+    padding: 10px 0; 
+}
+.col-r-card-title{
+    border-bottom: 1px solid #808080;
+    display: block;
+    padding: 0 30px;
+}
+.col-r-card-body{
+    margin: 10px 0;
+}
+.col-r-card li{
+    list-style-type: number;
+    font-size: 15px;
+    color: lightblue;
+    margin: 0px 50px;
+}
+.col-r-card a{
+    color: lightblue;
+    font-size: 15px;
+}
+
+.col-r-card2{
+    margin-top: 50px;
+    background-color: #555;
+    border: #808080 1px solid;
+    border-radius: 5px;
+}
+
+.col-r-card2 .card-header{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #808080;
+}
+.col-r-card2 .card-header i{
+    font-size: 40px;
+    padding: 20px 30px;
+    color: #ff4500;
+}
+.col-r-card2 .card-header h4{
+    font-family: 'Fredoka One',cursive,sans-serif;
+    font-weight: 100;
+}
+.col-r-card2 .card-body{
+    display: flex;
+    align-items: center;
+    border-bottom: #808080 1px solid;
+    justify-content: space-between;
+}
+.col-r-card2 .card-body .num{
+    height: 100px;
+    width: 30%;
+    font-size: 40px;
+    font-weight: 100;
+    font-family: 'Fredoka One',cursive,sans-serif;
+    position: relative;
+}
+.col-r-card2 .card-body .num p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.col-r-card2 .card-body .n1{
+    background-color: #ff4500;
+}
+.col-r-card2 .card-body .n2{
+    background-color: #ff5500;
+}
+.col-r-card2 .card-body .n3{
+    background-color: #ff6500;
+}
+.col-r-card2 .card-body .n4{
+    background-color: #ff7500;
+}
+.col-r-card2 .card-body .n5{
+    background-color: #ff8500;
+}
+.col-r-card2 .card-body .jeu{
+    width: 66%;
+}
+.col-r-card2 .card-body .jeu h4{
+    font-size: 18px;
+}
+.col-r-card2 .card-body .jeu p{
+    font-size: 15px;
+}
+.col-r-card2 .card-footer{
+    width: 100% ;
+    height: 70px;
+    position: relative;
+    text-align: center;
+}
+.col-r-card2 .card-footer p{
+    border-radius: 5px;
+    width: 70%;
+    background-color: #ff9500;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    cursor: pointer;
+}
+
+a:hover{
+    transition: .9s;
+    color: #fa8072;
+}
+@media screen and (max-width:800px) {
+    .main-content,
+    .col-g-row{flex-direction: column;align-items: center; width: 90%;justify-content: space-around;}
+    .main-content,.main-title,.col-g-row .box,.col-g-row .box1,.col-g-row .box-special > div,
+    .left-col .recherche input{width: 100%;}
+    .main-content .right-col{width: 90%;margin-bottom: 30px;}
+}
